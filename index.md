@@ -1,10 +1,9 @@
-## Welcome to GitHub Pages
+## Test Prep
 
-You can use the [editor on GitHub](https://github.com/siya-dixit/siya-repository/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Test Prep for AP Exam. 
+5.1 and 5.2 Notes
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+5.1 Notes: Computing can be both beneficial and harmful. Accelerometers used for airbag deployment and laterla mofment detecion
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
