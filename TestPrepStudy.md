@@ -1,3 +1,6 @@
+{% include nav.html %}
+
+
 # TPT Week 1 
 ## 5.3
 ### Notes
