@@ -1,3 +1,6 @@
+{% include nav.html %}
+
+
 3. i. Describes the overall purpose of the program
 ii. Describes what functionality of the program is demonstrated in the video
 iii. Describes the input and output of the program demonstrated in the video
