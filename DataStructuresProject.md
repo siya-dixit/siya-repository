@@ -4,10 +4,11 @@
 
 ### OOP Factorial
 ```
+# Sets class
 class factorial:
     def __init__(self):
         self.factorial = []
-
+# Def for self + n
     def __call__(self,n):
         if n == 1 or n == 0:
             self.print()
@@ -15,18 +16,18 @@ class factorial:
         else:
             self.factorial.append(n)
             return n * self(n-1)
-
+# After calling istelf it prints algorithm result
     def print(self):
         print("="*30, "\nSequence of Numbers: \n", *self.factorial)
 
 def run_factorial():
-    #first test
+# First test
     n = 12
     facto = factorial()
     result = facto(n)
     print("="*30, "\nThe factorial of", n, "is", result)
 
-    #second test
+# Second test
     n = 15
     facto = factorial()
     result = facto(n)
