@@ -1,4 +1,92 @@
 {% include nav.html %}
+
+# Algorithmic Final Code Segments 
+
+### OOP Factorial
+```
+class factorial:
+    def __init__(self):
+        self.factorial = []
+
+    def __call__(self,n):
+        if n == 1 or n == 0:
+            self.print()
+            return 1
+        else:
+            self.factorial.append(n)
+            return n * self(n-1)
+
+    def print(self):
+        print("="*30, "\nSequence of Numbers: \n", *self.factorial)
+
+def run_factorial():
+    #first test
+    n = 12
+    facto = factorial()
+    result = facto(n)
+    print("="*30, "\nThe factorial of", n, "is", result)
+
+    #second test
+    n = 15
+    facto = factorial()
+    result = facto(n)
+    print("="*30, "\nThe factorial of", n, "is", result)
+```
+
+
+### OOP LCM
+```
+# no init like the factorial because of no defined properties
+
+class leastcm:
+    def __call__(self, a, b):
+        if (a > b):
+            maximum = a
+        else:
+            maximum = b
+        while (True):
+            if (maximum % a == 0 and maximum % b == 0):
+                break
+            maximum = maximum + 1
+        return maximum
+
+def lcm_run():
+    #first test
+    a = 3
+    b = 5
+    lcm = leastcm()
+    result = lcm(a,b)
+    print("="*60, "\nThe LCM of", a, "and", b, "is", result)
+
+    #second test
+    a = 50
+    b = 100
+    result = lcm(a,b)
+    print("="*60, "\nThe LCM of", a, "and", b, "is", result)
+
+    #third test
+    a = 5
+    b = 7
+    result = lcm(a,b)
+    print("="*60, "\nThe LCM of", a, "and", b, "is", result)
+```
+
+### Factorial
+```
+def fact(b):
+    a = 1
+    for i in range(1,b+1):
+        a = a * i
+    return a
+b = 5
+number = fact(b)
+print("="*30)
+print("The Factorial Of 5 Is: ", number)
+print("="*30)
+
+```
+
+
 ## Week 1
 
 Python Lists Vs Dictionaries 
